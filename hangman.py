@@ -93,7 +93,9 @@ game_over = False
 correct_letters = []
 
 while not game_over :
-    
+ 
+    print(f"--------------------{lives}/6 lives left--------------------")
+ 
     guess = input("Enter a letter").lower()
 
     display = ""
